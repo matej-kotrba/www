@@ -1,0 +1,66 @@
+header {
+   background-color: whitesmoke; 
+    
+}
+
+body {
+    background-color: whitesmoke;
+}
+
+h1 {
+    border-radius: 20px 20px 20px 20px;
+    border: solid 3px black;
+    text-align: center;
+    margin: 0px 850px;
+    background-color: black;
+    color: white;
+    font-size: 100px;
+    
+}
+
+h2 {
+    border-radius: 20px 20px 20px 20px;
+    border: solid 3px black;
+    text-align: center;
+    margin: -351px 680px 0px 1200px;
+    background-color: black;
+    color: white;
+    font-size: 100px; 
+}
+
+main {
+    width: 1000px;
+    margin: auto;
+
+    
+}
+
+h3 {
+    font-size: 50px;
+    border-bottom: black solid 3px;
+    text-align: center;
+}
+
+li {
+    font-size: 20px;
+    padding-top: 5px;
+}
+
+ol {
+    font-size: 20px;
+    opacity: 0;
+
+}
+
+ol:hover {
+    transform: ;
+    opacity: 1;
+    transition: 500ms;
+    
+}
+
+figure {
+    text-align: center;
+    border: black dotted 3px;
+    margin: auto 300px;
+}
