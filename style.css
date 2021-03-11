@@ -1,10 +1,9 @@
 header {
-   background-color: whitesmoke; 
-    
+   padding-bottom: 50px;     
 }
 
 body {
-    background-color: whitesmoke;
+    background-image: linear-gradient(to bottom, whitesmoke, rgb(189, 189, 189));    
 }
 
 h1 {
@@ -31,8 +30,10 @@ h2 {
 main {
     width: 1000px;
     margin: auto;
-
-    
+    border: solid 3px black;
+    padding: 50px;
+    padding-top: 0px;
+    border-radius: 12% 12%;
 }
 
 h3 {
@@ -46,21 +47,47 @@ li {
     padding-top: 5px;
 }
 
-ol {
-    font-size: 20px;
-    opacity: 0;
 
-}
 
-ol:hover {
-    transform: ;
-    opacity: 1;
-    transition: 500ms;
-    
-}
+
 
 figure {
     text-align: center;
     border: black dotted 3px;
     margin: auto 300px;
+}
+
+.otazka {
+    border: black solid 1px;
+}
+
+.odpoved {
+    border: solid black 1px;
+}
+
+table, th, td {
+    border: black solid 3px;
+    border-collapse: collapse;
+}
+
+td, th {
+    padding: 5px;
+}
+
+th {
+    background-color: grey;
+    color: whitesmoke;
+}
+
+caption {
+    font-size: 1.2em;
+    background-color: darkslategrey;
+    color: white;
+    border: black solid 1px;
+    border-radius: 10px;
+}
+
+ol#search {
+    list-style-type: circle;
+
 }

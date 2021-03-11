@@ -27,7 +27,8 @@
                 Berners-Lee.</li>
             <li>Za hypertext označujeme takový text, který obsahuje propojení na jiné texty pomocí tzv. hypertextových
                 odkazů. Ve službě WWW jsou realizovány jako tzv. URL odkazy.
-            <li>Služba je založena na spolupráci WWW  <abbr title="browserů">klientů</abbr> s WWW serverem. Prvním komerčním prohlížečem
+            <li>Služba je založena na spolupráci WWW <abbr title="browserů">klientů</abbr> s WWW serverem. Prvním
+                komerčním prohlížečem
                 webových stránek byl na počátku 90. let minulého století Mosaic.</li>
             <li>Při jejich spolupráci fungují následující mechanismy:</li>
             <ol>
@@ -35,21 +36,79 @@
                     jazyk HTML (HyperText Markup Language), definující formát WWW stránek, které server vrací klientovi.
                 </li>
             </ol>
-            <li> <abbr title="W3C">World Wide Web Consortium</abbr> je mezinárodní konsorcium jehož členové společně s veřejností vyvíjejí
+            <li> <abbr title="W3C">World Wide Web Consortium</abbr> je mezinárodní konsorcium jehož členové společně s
+                veřejností vyvíjejí
                 webové standardy pro WWW. Konsorciu předsedá Tim Berners-Lee.</li>
         </section>
         <section>
             <h3>Otazky</h3>
-        <div class="otazka">1. Jakou roli plní webový server? Uveďte příklady webových serverů.</div>
-        <div class="odpoved">
-            <p>Server je bezobslužný program, který přijímá a obsluhuje požadavky klientů. Na vlastnostech tohoto programu závisí, co
-            server dovede a jaký má výkon.</p></div>
+            <div class="otazka">1. Jakou roli plní webový server? Uveďte příklady webových serverů.</div>
+            <div class="odpoved">
+                <p>Server je bezobslužný program, který přijímá a obsluhuje požadavky klientů. Na vlastnostech tohoto
+                    programu závisí, co
+                    server dovede a jaký má výkon.</p>
+            </div>
             <h4>Příklady serverů:</h4>
             <ul>
                 <li>Apache</li>
                 <li>NGINX</li>
                 <li>Microsoft Internet Information Server</li>
             </ul>
+            <!--5.otazka-->
+            <h4>Stavové kódy</h4>
+            <div class="otazka">5. Vypištědo tabulky stavové hodnoty HTTP.</div>
+            <div class="odpoved">
+                <table>
+                    <caption>Stavové kódy odpovědi serveru</caption>
+                    <tr>
+                        <th>Kód</th>
+                        <th>Typ zprávy</th>
+                    </tr>
+                    <tr>
+                        <td>1..</td>
+                        <td>Informační zpráva</td>
+                    </tr>
+                    <tr>
+                        <td>2..</td>
+                        <td>Informační zpráva</td>
+                    </tr>
+                    <tr>
+                        <td>3..</td>
+                        <td>Informační zpráva</td>
+                    </tr>
+                    <tr>
+                        <td>4..</td>
+                        <td>Informační zpráva</td>
+                    </tr>
+                    <tr>
+                        <td>5..</td>
+                        <td>Informační zpráva</td>
+                    </tr>
+                </table>
+            </div>
+
+            <h4>9otazka</h4>
+            <div class="otazka">9. Vypište přehledně jednotlivé fáze fungování internetových.</div>
+            <div class="odpoved">
+                <p>Server je bezobslužný program, který přijímá a obsluhuje požadavky klientů. Na vlastnostech tohoto
+                    programu závisí, co
+                    server dovede a jaký má výkon.</p>
+            </div>
+            <ol id="search">
+                <li>Prohledání webových stránek. Pro prohledání webových stránek má internetový vyhledávač automatický
+                    program, tzv. vyhledávací robot (crawler, bot, nebo též spider – „pavouk“), který prochází celý
+                    webový prostor. Robot dostane na začátku seznam atraktivních vstupních míst (odkazů), jejichž obsah
+                    si přečte, uloží do databáze a zapamatuje si navštívenou adresu odkazu, aby se na ni již podruhé
+                    nevracel</li>
+                <li>Indexování. Databázi obsahující uložené obsahy navštívených stránek je potřeba indexovat, aby bylo
+                    možné podle zadaných slov co nejrychleji najít adresy stránek, které je obsahují. Zároveň je nutné
+                    vystavět index tak, aby poskytoval na prvních místech stránky s nejvyšší užitnou hodnotou
+                    (relevancí, mající nejvyšší hodnocení kvality, nejvyšší váhu)</li>
+                    <ul>
+                        <li>Váha slov. Stránka má vyšší hodnocení, když má hledané slovo na stránce vyšší váhu.</li>
+                        <li>Atraktivita stránky. Stránka má vyšší hodnocení, když na ni odkazuje více jiných stránek, protože zřejmě obsahuje zajímavé informace.</li>
+                    </ul>
+            </ol>
         </section>
     </main>
     <footer>
