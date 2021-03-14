@@ -41,7 +41,8 @@
                 webové standardy pro WWW. Konsorciu předsedá Tim Berners-Lee.</li>
         </section>
         <section>
-            <h3>Otazky</h3>
+            <h3>Otázky</h3>
+            <!--1.otazka-->
             <div class="otazka">1. Jakou roli plní webový server? Uveďte příklady webových serverů.</div>
             <div class="odpoved">
                 <p>Server je bezobslužný program, který přijímá a obsluhuje požadavky klientů. Na vlastnostech tohoto
@@ -54,8 +55,58 @@
                 <li>NGINX</li>
                 <li>Microsoft Internet Information Server</li>
             </ul>
+            <!--2.otazka-->
+            <div class="otazka">2. Jak se nazývá program označovaný jako webový klient? Co je jeho úkolem? Vyjmenujte
+                nejpoužívanější webové klienty.</div>
+            <div class="odpoved">
+                <p>Serverový klient - prohlížeč (<i>anglicky browser</i>)</p>
+                <p>Takový klient je program, který komunikuje s uživatelem a na základě jeho pokynů se obrací na
+                    jednotlivé
+                    servery, získává od nich data a zobrazuje je.</p>
+                <ol>Velmi používané jsou např:
+                    <li>Mozzila Firefox</li>
+                    <li>Google Chrome</li>
+                    <li>Microsoft Edge</li>
+                    <li>Opera</li>
+                    <li>Safari</li>
+                </ol>
+            </div>
+            <!--3.otazka-->
+            <div class="otazka">3. Jak probíhá komunikace mezi webovým klientem a webovým serverem?</div>
+            <div class="odpoved">
+                <p>Základem služby WWW je komunikace mezi webovým klientem a webovým serverem pomocí protokolu HTTP.</p>
+                <ol id="search">
+                    <li>Webový server je připojen k počítačové síti a přijímá požadavky v souladu s protokolem <abbr
+                            title="HTTP Request">HTTP</abbr></li>
+                    <li>Odpověd je uvozena hlavičkou obsahující stavový kód, po ní následuje HTML kód, připojené
+                        soubory, CSS styly a programové soubory - Java Script(JS).</li>
+                </ol>
+            </div>
+            <!--4.otazka-->
+            <div class="otazka">Co je HTTP?</div>
+            <div class="odpoved">
+                <ol id="search">
+                    <li><abbr title="HyperText Transfer Protocol">HTTP</abbr>je jednoduchý aplikační protokol s
+                        komunikací
+                        charakteru požadavek – odpověď. Žádosti mají formu jednoduchých příkazů a mohou být upřesňovány
+                        pomocí různých parametrů, tzv. hlaviček.</li>
+                    <li>Odpovědi mají číselný charakter a nejčastěji obsahují i WWW stránku, kterou klient požadoval.
+                    </li>
+                    <li>Při odpovědi přicházá tzv.<b> stavový kód odpovědi</b>, ten určuje zda byl požadavek vyřízen v
+                        pořádku, či zda došlo k nějakým obtížím.</li>
+                    <li>Kódy jsou trojciferná čísla, dělící se do následujících skupin:
+                        <ul>
+                            <li>1xx – informační zpráva</li>
+                            <li>2xx – úspěšné vyřízení požadavku</li>
+                            <li>3xx – problémy spojené s přesměrováním</li>
+                            <li>4xx – chyby související s vyřízením požadavku <div class="ukaz">- stránka není dostupná, apod.</div></li>
+                            <li>5xx – interní chyby serveru</li>
+                        </ul>
+                    </li>    
+                </ol>
+                    
+            </div>
             <!--5.otazka-->
-            <h4>Stavové kódy</h4>
             <div class="otazka">5. Vypištědo tabulky stavové hodnoty HTTP.</div>
             <div class="odpoved">
                 <table>
@@ -86,34 +137,56 @@
                     </tr>
                 </table>
             </div>
-
-            <h4>9otazka</h4>
-            <div class="otazka">9. Vypište přehledně jednotlivé fáze fungování internetových.</div>
+            <!--9.otazka-->
+            <div class="otazka">9. Vypište přehledně jednotlivé fáze fungování internetových vyhledávačů.</div>
             <div class="odpoved">
-                <p>Server je bezobslužný program, který přijímá a obsluhuje požadavky klientů. Na vlastnostech tohoto
-                    programu závisí, co
-                    server dovede a jaký má výkon.</p>
+                <p>Internetový vyhledávač na základě své databáze vypisuje seznam odkazů na stránky, které obsahují
+                    informace, jež zadal uživatel do formuláře. Databáze je udržována převážně automaticky na rozdíl od
+                    internetových katalogů, které jsou udržovány převážně ručně. Cílem vyhledávačů je poskytnout
+                    uživateli při odpovědi na dotaz co nejrelevantnější informace, a proto různými způsoby hodnotí
+                    důležitost webových stránek, které mají ve své databázi.
+                    Obecně většina internetových vyhledávačů pracuje ve třech krocích:</p>
+                <ol id="search">
+                    <li><b>Prohledání webových stránek.</b> Pro prohledání webových stránek má internetový vyhledávač
+                        automatický
+                        program, tzv. vyhledávací robot (crawler, bot, nebo též spider – „pavouk“), který prochází celý
+                        webový prostor. Robot dostane na začátku seznam atraktivních vstupních míst (odkazů), jejichž
+                        obsah
+                        si přečte, uloží do databáze a zapamatuje si navštívenou adresu odkazu, aby se na ni již podruhé
+                        nevracel</li>
+                    <li><b>Indexování.</b> Databázi obsahující uložené obsahy navštívených stránek je potřeba indexovat,
+                        aby
+                        bylo
+                        možné podle zadaných slov co nejrychleji najít adresy stránek, které je obsahují. Zároveň je
+                        nutné
+                        vystavět index tak, aby poskytoval na prvních místech stránky s nejvyšší užitnou hodnotou
+                        (relevancí, mající nejvyšší hodnocení kvality, nejvyšší váhu)</li>
+                    <ol>
+                        <li><b>Váha slov.</b> Stránka má vyšší hodnocení, když má hledané slovo na stránce vyšší váhu.
+                        </li>
+                        <li><b>Atraktivita stránky.</b> Stránka má vyšší hodnocení, když na ni odkazuje více jiných
+                            stránek, protože zřejmě obsahuje zajímavé informace.</li>
+                        <li><b>Serióznost webu.</b> Webové servery, které obsahují velké množství kvalitních stránek,
+                            jsou při výpočtu váhy zvýhodněny.</li>
+                        <li><b>Sponzorované odkazy.</b> Váha odkazu se zvyšuje zaplacením poplatku. Seriózní vyhledávače
+                            se této praxi vyhýbají nebo zřetelně oddělují výsledky zobrazené na základě komerčního
+                            zvýhodnění. Tento způsob je jedním z možných zdrojů příjmů vyhledávače.</li>
+                        <li><b>Technická kvalita.</b> Váha odkazu se zvyšuje, pokud jsou stránky správně sestaveny a
+                            vyhovují webovým standardům.</li>
+                    </ol>
+                    <li><b>Vyhledávání.</b> Databáze a její index se zpřístupní na vstupní stránce vyhledávače. Uživatel
+                        získá
+                        po zadání hledaných slov seznam adres, na kterých robot hledaná slova našel. Pro vyšší
+                        přehlednost se zobrazuje kromě odkazu ještě titulek stránky, a okolí nalezených slov.</li>
+                </ol>
             </div>
-            <ol id="search">
-                <li>Prohledání webových stránek. Pro prohledání webových stránek má internetový vyhledávač automatický
-                    program, tzv. vyhledávací robot (crawler, bot, nebo též spider – „pavouk“), který prochází celý
-                    webový prostor. Robot dostane na začátku seznam atraktivních vstupních míst (odkazů), jejichž obsah
-                    si přečte, uloží do databáze a zapamatuje si navštívenou adresu odkazu, aby se na ni již podruhé
-                    nevracel</li>
-                <li>Indexování. Databázi obsahující uložené obsahy navštívených stránek je potřeba indexovat, aby bylo
-                    možné podle zadaných slov co nejrychleji najít adresy stránek, které je obsahují. Zároveň je nutné
-                    vystavět index tak, aby poskytoval na prvních místech stránky s nejvyšší užitnou hodnotou
-                    (relevancí, mající nejvyšší hodnocení kvality, nejvyšší váhu)</li>
-                    <ul>
-                        <li>Váha slov. Stránka má vyšší hodnocení, když má hledané slovo na stránce vyšší váhu.</li>
-                        <li>Atraktivita stránky. Stránka má vyšší hodnocení, když na ni odkazuje více jiných stránek, protože zřejmě obsahuje zajímavé informace.</li>
-                    </ul>
-            </ol>
         </section>
     </main>
     <footer>
         <hr>
-        <p>&copy; 2021 - IT1 - Matěj Kotrba</p>
+        <p>
+        <address>&copy; - IT1 - Matěj Kotrba</address>
+        </p>
     </footer>
 </body>
 

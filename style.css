@@ -88,6 +88,17 @@ caption {
 }
 
 ol#search {
-    list-style-type: circle;
+    list-style-type: square;
 
 }
+
+.ukaz {
+    opacity: 0;
+}
+
+.ukaz:hover {
+    transition: 600ms;
+    opacity: 1;
+    text-decoration: underline solid 0.5px black; 
+}
+
