@@ -120,3 +120,87 @@ table {
 .stred {
     margin: auto auto;
 }
+
+.prvni:link, .prvni:visited {
+    background-color: red;
+    color: white;
+    padding: 14px 25px;
+    text-align: center;
+    display: inline-block;
+    border: rgb(138, 4, 4) solid ;
+    margin-right: 5px;
+    margin-bottom: 10px;
+}
+
+.prvni:hover, .prvni:active {
+    background-color: rgb(138, 4, 4);
+}
+
+.druhy:link, .druhy:visited {
+    background-color: green;
+    color: white;
+    padding: 14px 25px;
+    text-align: center;
+    display: inline-block;
+    border: rgb(3, 63, 3) solid ;
+    margin-right: 5px;
+    margin-bottom: 10px;
+}
+
+.druhy:hover, .druhy:active {
+    background-color: rgb(3, 63, 3);
+}
+
+.treti:link, .treti:visited {
+    background-color: rgb(93, 184, 240);
+    color: white;
+    padding: 14px 25px;
+    text-align: center;
+    display: inline-block;
+    border: rgb(36, 36, 240) solid ;
+    margin-right: 5px;
+    margin-bottom: 10px;
+}
+
+.treti:hover, .treti:active {
+    background-color: rgb(36, 36, 240);
+}
+
+.ctvrty:link, .ctvrty:visited {
+    background-color: orange;
+    color: white;
+    padding: 14px 25px;
+    text-align: center;
+    display: inline-block;
+    border: rgb(160, 110, 18) solid ;
+    margin-right: 5px;
+    margin-bottom: 10px;
+}
+
+.ctvrty:hover, .ctvrty:active {
+    background-color: rgb(160, 110, 18);
+}
+
+.paty:link, .paty:visited {
+    background-color: grey;
+    color: white;
+    padding: 14px 25px;
+    text-align: center;
+    display: inline-block;
+    border: rgb(71, 71, 71) solid ;
+    margin-right: 5px;
+    margin-bottom: 10px;
+}
+
+.paty:hover, .paty:active {
+    background-color: rgb(71, 71, 71);
+}
+
+.odsazeni1 {
+    text-align: center;
+}
+
+.odsazeni2 {
+    text-align: center;
+
+}
