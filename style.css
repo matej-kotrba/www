@@ -59,6 +59,7 @@ figure {
 
 .otazka {
     border: black solid 1px;
+    padding-top: 25px;
 }
 
 .odpoved {
@@ -84,7 +85,7 @@ caption {
     background-color: darkslategrey;
     color: white;
     border: black solid 1px;
-    border-radius: 10px;
+    border-radius: 10px 10px 0px 0px;
 }
 
 ol#search {
@@ -102,3 +103,20 @@ ol#search {
     text-decoration: underline solid 0.5px black; 
 }
 
+table {
+    text-align: center;
+}
+
+.ano {
+    color: green;
+    background-color: greenyellow;
+}
+
+.ne {
+    color: rgb(255, 0, 0);
+    background-color: rgb(226, 123, 123);
+}
+
+.stred {
+    margin: auto auto;
+}

@@ -83,7 +83,7 @@
                 </ol>
             </div>
             <!--4.otazka-->
-            <div class="otazka">Co je HTTP?</div>
+            <div class="otazka">4. Co je HTTP?</div>
             <div class="odpoved">
                 <ol id="search">
                     <li><abbr title="HyperText Transfer Protocol">HTTP</abbr>je jednoduchý aplikační protokol s
@@ -99,17 +99,18 @@
                             <li>1xx – informační zpráva</li>
                             <li>2xx – úspěšné vyřízení požadavku</li>
                             <li>3xx – problémy spojené s přesměrováním</li>
-                            <li>4xx – chyby související s vyřízením požadavku <div class="ukaz">- stránka není dostupná, apod.</div></li>
+                            <li>4xx – chyby související s vyřízením požadavku <div class="ukaz">- stránka není dostupná,
+                                    apod.</div>
+                            </li>
                             <li>5xx – interní chyby serveru</li>
                         </ul>
-                    </li>    
+                    </li>
                 </ol>
-                    
             </div>
             <!--5.otazka-->
             <div class="otazka">5. Vypištědo tabulky stavové hodnoty HTTP.</div>
             <div class="odpoved">
-                <table>
+                <table class="stred">
                     <caption>Stavové kódy odpovědi serveru</caption>
                     <tr>
                         <th>Kód</th>
@@ -137,6 +138,50 @@
                     </tr>
                 </table>
             </div>
+            <!--6.otazka-->
+            <div class="otazka">6. Proč se stále častěji využívá protokol HTTPS?</div>
+            <div class="odpoved">
+                <ol id="search">
+                    <li><abbr title="Hypertext Transfer Protocol Secure = HTTP se zabezpečením">HTTPS</abbr> je
+                        nadstavba protokolu HTTP,
+                        která poskytuje zvýšenou bezpečnost před odposloucháváním či podvržením dat.</li>
+                    <li>HTTPS není speciální protokol, protože data jsou přenášena pomocí klasického HTTP: nejsou však
+                        přenášena v běžném textu, ale šifrována pomocí SSL nebo TLS (speciální vrstva vložená mezi
+                        vrstvu transportní a aplikační), což zaručuje ochranu proti útokům. </li>
+                    <li>Pro komunikaci pomocí HTTPS musí nejdříve server vlastnit certifikát. Certifikát musí být
+                        podepsán tzv. certifikační autoritou, která zaručí, že vlastník certifikátu se nevydává za
+                        nikoho jiného. Webové prohlížeče jsou většinou vybaveny podpisovými certifikáty největších
+                        podpisových autorit.</li>
+                </ol>
+            </div>
+            <table>
+                <caption>Výhody/Nevýhody HTTPS</caption>
+                <tr>
+                    <th></th>
+                    <th>Ověření identity</th>
+                    <th>Důvěrnost přihlášených dat</th>
+                    <th>Integrita obsahu</th>
+                    <th>Lehčí konfigurace webového serveru</th>
+                    <th>Nepotřeba udržování certifikátu</th>
+                </tr>
+                <tr>
+                    <td>HTTP</td>
+                    <td class="ne">NE</td>
+                    <td class="ne">NE</td>
+                    <td class="ne">NE</td>
+                    <td class="ano">ANO</td>
+                    <td class="ano">ANO</td></tr>
+                    
+                <tr>
+                    <td>HTTPS</td>
+                    <td class="ano">ANO</td>
+                    <td class="ano">ANO</td>
+                    <td class="ano">ANO</td>
+                    <td class="ne">NE</td>
+                    <td class="ne">NE</td>
+                    </tr>
+                
+            </table>
             <!--9.otazka-->
             <div class="otazka">9. Vypište přehledně jednotlivé fáze fungování internetových vyhledávačů.</div>
             <div class="odpoved">
