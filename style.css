@@ -3,7 +3,8 @@ header {
 }
 
 body {
-    background-image: linear-gradient(to bottom, whitesmoke, rgb(189, 189, 189));    
+    background-image: linear-gradient(to bottom, rgb(216, 216, 238), rgb(196, 242, 245));
+    font-family: Arial, Helvetica, sans-serif;    
 }
 
 h1 {
@@ -31,9 +32,10 @@ main {
     width: 1000px;
     margin: auto;
     border: solid 3px black;
-    padding: 50px;
+    padding: 100px;
     padding-top: 0px;
-    border-radius: 12% 12%;
+    border-radius:  15px;
+    background-color: whitesmoke;
 }
 
 h3 {
@@ -48,22 +50,23 @@ li {
 }
 
 
-
-
-
-figure {
-    text-align: center;
-    border: black dotted 3px;
-    margin: auto 300px;
-}
-
 .otazka {
-    border: black solid 1px;
-    padding-top: 25px;
+    font-size: 25px;
+    border: rgb(21, 39, 39) solid 4px;
+    text-align: center;
+    padding: 5px 0px;
+    margin-top: 10px;
+    background-color: rgb(122, 196, 196);
+    
 }
 
 .odpoved {
-    border: solid black 1px;
+
+    padding: 5px;
+}
+
+table {
+    background-color: rgb(180, 224, 238);
 }
 
 table, th, td {
@@ -88,9 +91,8 @@ caption {
     border-radius: 10px 10px 0px 0px;
 }
 
-ol#search {
+ol {
     list-style-type: square;
-
 }
 
 .ukaz {
@@ -119,6 +121,7 @@ table {
 
 .stred {
     margin: auto auto;
+    background-color: whitesmoke;
 }
 
 .prvni:link, .prvni:visited {
@@ -204,3 +207,20 @@ table {
     text-align: center;
 
 }
+
+.obrazek {
+    text-align: center;
+    border: brown solid 5px;
+    margin: 5px 100px ;
+    background-color: burlywood;
+}
+
+p {
+    font-size: 20px;
+}
+
+.prvniobrazek {
+    margin: auto 300px;
+    border: rgb(64, 64, 141) 6px solid;
+}
+
